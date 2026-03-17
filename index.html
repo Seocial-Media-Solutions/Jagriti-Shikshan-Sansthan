@@ -172,6 +172,86 @@
 
 <body>
 
+  <div class="admissions-top-bar w-100 float-left text-center">
+    <div class="container">
+      <p class="mb-0"><strong>Admissions Open Now!</strong> Enroll today for Bachelor & Master Degree Programs. <a href="#contact-section" class="text-white ml-2"><u>Apply Now</u> <i class="fa-solid fa-arrow-right ml-1"></i></a></p>
+    </div>
+  </div>
+
+  <style>
+    .admissions-top-bar {
+      background: linear-gradient(90deg, #42DBAF 0%, #00DAB2 100%);
+      color: white;
+      padding: 12px 0;
+      font-size: 15px;
+      z-index: 9999;
+      position: relative;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .admissions-top-bar a:hover {
+      opacity: 0.8;
+    }
+    .degree-section-title {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .degree-section-title h3 {
+      font-size: 32px;
+      color: #333;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+    .degree-section-title h3::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background-color: #42DBAF;
+    }
+    .course-card-custom {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+      margin-bottom: 30px;
+      border: 1px solid #eee;
+      height: 100%;
+    }
+    .course-card-custom:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(66, 219, 175, 0.2);
+      border-color: #42DBAF;
+    }
+    .course-card-icon {
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8fbf9;
+      font-size: 50px;
+      color: #42DBAF;
+    }
+    .course-card-body {
+      padding: 25px;
+      text-align: center;
+    }
+    .course-card-body h4 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: #222;
+    }
+    .course-card-body p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+  </style>
+
   <div class="floating-container">
     <!-- Toggle Icon -->
     <div id="message">Contact Now</div>
@@ -222,7 +302,13 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link p-0" href="#courses-section">Courses</a>
+                <a class="nav-link p-0" href="#courses-section">Diplomas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#bachelor-section">Bachelors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#degree-section">Degrees</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link p-0" href="#ourApproch-section">Our Approach</a>
@@ -451,7 +537,7 @@
 
               <h5 class="font-weight-600">D-PHARMA</h5>
               <ul class="ml-4">
-                <li>B.A., M.A., BCA, MCA</li>
+                <li>Diploma in Pharmacy</li>
                 <li>Pharmacy & Medical Sciences</li>
               </ul>
 
@@ -473,8 +559,8 @@
 
               <h5 class="font-weight-600">ANM</h5>
               <ul class="ml-4">
-                <li>BSC, MSC, B.Tech.</li>
                 <li>Auxiliary Nursing & Midwifery</li>
+                <li>Nursing & Healthcare</li>
               </ul>
               <div class="light-green-btn d-inline-block">
                 <a href="#contact-section" class="d-inline-block">Contact now</a>
@@ -494,8 +580,8 @@
 
               <h5 class="font-weight-600">GNM</h5>
               <ul class="ml-4">
-                <li>Librarian, PHD, LLB</li>
                 <li>General Nursing & Midwifery</li>
+                <li>Healthcare & Patient Care</li>
               </ul>
               <div class="light-green-btn d-inline-block">
                 <a href="#contact-section" class="d-inline-block">Contact now</a>
@@ -601,6 +687,125 @@
       <!-- container -->
     </div>
     <!-- find out more con -->
+  </section>
+
+  <!-- BACHELOR SECTION -->
+  <section class="float-left w-100 position-relative main-box bachelor-section padding-top padding-bottom" id="bachelor-section" style="background-color: #fcfdfe;">
+    <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+      <div class="heading-title-con text-center mb-5">
+        <span class="d-block special-text">Undergraduate Programs</span>
+        <h2 class="font-weight-600 mb-2">Bachelor Section</h2>
+        <p>Start your professional journey with our top-rated bachelor degrees.</p>
+      </div>
+
+      <div class="row">
+        <!-- BCA -->
+        <div class="col-lg-3 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>BCA</h4>
+              <p>Bachelor of Computer Applications - Master the digital world.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-success rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- BA -->
+        <div class="col-lg-3 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>BA</h4>
+              <p>Bachelor of Arts - Explore history, literature, and social sciences.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-success rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- BSc -->
+        <div class="col-lg-3 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon">
+              <i class="fa-solid fa-flask"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>BSc</h4>
+              <p>Bachelor of Science - Dive into the world of scientific discovery.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-success rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- BTech -->
+        <div class="col-lg-3 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>BTech</h4>
+              <p>Bachelor of Technology - Engineer your future with innovation.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-success rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEGREE SECTION (Masters) -->
+  <section class="float-left w-100 position-relative main-box degree-section padding-bottom" id="degree-section">
+    <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+      <div class="heading-title-con text-center mb-5">
+        <span class="d-block special-text">Postgraduate Programs</span>
+        <h2 class="font-weight-600 mb-2">Degree Section</h2>
+        <p>Specialized master degrees for advanced career growth.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <!-- MA -->
+        <div class="col-lg-4 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon" style="color: #6c5ce7; background: #f9f8ff;">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>MA</h4>
+              <p>Master of Arts - Deepen your understanding of humanities and arts.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-primary rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- MCA -->
+        <div class="col-lg-4 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon" style="color: #6c5ce7; background: #f9f8ff;">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>MCA</h4>
+              <p>Master of Computer Applications - Advanced expertise in software development.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-primary rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- MSc -->
+        <div class="col-lg-4 col-md-6">
+          <div class="course-card-custom">
+            <div class="course-card-icon" style="color: #6c5ce7; background: #f9f8ff;">
+              <i class="fa-solid fa-atom"></i>
+            </div>
+            <div class="course-card-body">
+              <h4>MSc</h4>
+              <p>Master of Science - Specialist research and technical proficiency.</p>
+              <a href="#contact-section" class="btn btn-sm btn-outline-primary rounded-pill px-4">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- TESTIMONIAL SECTION -->
@@ -727,6 +932,8 @@
                 <option value="GNM">GNM</option>
                 <option value="D-MLT">D-MLT</option>
                 <option value="DXRT">DXRT</option>
+                <option value="Bachelors">Bachelors (BCA, BA, BSc, BTech)</option>
+                <option value="Degrees">Degrees (MA, MCA, MSc)</option>
               </select>
 
               <textarea placeholder="Your Message" rows="4" name="message"
@@ -771,11 +978,11 @@
           <div class="footer-inner-links-con">
             <h6 class="text-white span-heading d-block">Quick Links</h6>
             <ul class="p-0 m-0 list-unstyled">
-              <li><a href="#hero-section"> Hero</a></li>
               <li><a href="#about-section">About</a></li>
               <li><a href="#whyChoose-section">Why Choose Us</a></li>
-              <li><a href="#courses-section">Courses</a></li>
-              <li><a href="#reviews-section">Reviews</a></li>
+              <li><a href="#courses-section">Diplomas</a></li>
+              <li><a href="#bachelor-section">Bachelors</a></li>
+              <li><a href="#degree-section">Degrees</a></li>
               <li class="mb-0"><a href="#contact-section">Contact</a></li>
               <!-- list unstyled -->
             </ul>
@@ -847,6 +1054,8 @@
           <option value="GNM">GNM</option>
           <option value="D-MLT">D-MLT</option>
           <option value="DXRT">DXRT</option>
+          <option value="Bachelors">Bachelors (BCA, BA, BSc, BTech)</option>
+          <option value="Degrees">Degrees (MA, MCA, MSc)</option>
         </select>
         <textarea placeholder="Your Message (Optional)" name="message" rows="3"></textarea>
 
